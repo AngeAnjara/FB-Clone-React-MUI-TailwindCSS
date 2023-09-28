@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navBar {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: #f8fafd;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid white;
+    z-index: 1;
+  }
+  .navBarDark {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    color: white;
+    background: #242526;
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgb(18, 18, 18);
+    align-items: center;
+    justify-content: space-around;
+  }
+  .postBlack {
+    color: #ececec;
+  }
+  .acceuil {
+    min-width: 120vh;
+    min-height: 100vh;
+    top: 70px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100%;
+    background: #f0f2f5;
+  }
+  .acceuilDark {
+    min-width: 120vh;
+    min-height: 100vh;
+    top: 70px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100%;
+    background: #18191a;
+  }
+  .message {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+  }
+  .msgIcon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .msgIcon span {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    left: 20px;
+    top: -2px;
+    border-radius: 50%;
+    background: red;
+    z-index: 1;
+  }
+  .messageShow {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    background-color: #f0f2f5;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  .messageShowDark {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    background-color: #242526;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  .mesShow {
+    padding: 10px;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.05);
+  }
+  .mesShow:hover {
+    background: #f9feff;
+  }
+  .containerWhite {
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  .containerDark {
+    color: white;
+  }
+  .postBlack {
+    background: #242526;
+    border: 2px #18191a;
+  }
+
+  .searchField input {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.05);
+  }
+  .Line {
+    display: flex;
+    flex-direction: column;
+  }
+  .OnLine {
+    position: relative;
+    z-index: 0;
+  }
+  .emojy {
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.08);
+    padding: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+    border-radius: 15px;
+  }
+  .OnLine span {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #01d119;
+    border: 2px solid white;
+    top: 50px;
+    z-index: 1;
+    left: 50px;
+    border-radius: 50%;
+  }
+  .OffLine {
+    position: relative;
+    z-index: 0;
+  }
+  .OffLine span {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #b0b0b0;
+    border: 2px solid white;
+    top: 50px;
+    z-index: 1;
+    left: 50px;
+    border-radius: 50%;
+  }
+
+  /*Mobile Css*/
+  .All {
+    background: #ececec;
+    z-index: 0;
+  }
+  .AllDark {
+    background: #18191a;
+    z-index: 0;
+  }
+  .topBar {
+    background: #f5f5f5;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .topBarDark {
+    background: #18191a;
+  }
+  .midleBar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 40px;
+    border-bottom: 0.1px solid rgb(66, 66, 66);
+    background: #f5f5f5;
+    z-index: 5;
+  }
+  .midleBarFixed {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.1px solid rgb(66, 66, 66);
+    background: #f5f5f5;
+    z-index: 1;
+  }
+  .midleBarFixedDark {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 0.1px solid rgb(66, 66, 66);
+    background: #242526;
+    z-index: 1;
+  }
+  .midleBarDark {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    border-bottom: 0.1px solid rgb(66, 66, 66);
+    background: #242526;
+  }
+}
