@@ -9,21 +9,11 @@ export const User = [
     message: "Hi, How are you",
     Post: "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\n\nProin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
     like: 88,
+    comment:"Hello imperdiet et, commodo vulputate, justo. In blandit ultrices enim. ",
     photo:
       "https://media.istockphoto.com/id/1282162846/fr/photo/verticale-de-jeune-femme-brune-de-cheveux-magnifiquement-regardant-rectifi%C3%A9e-dans-un.jpg?s=612x612&w=0&k=20&c=PTUYfJyKZR4TSd9in6tXBHL6PHqlM-p5U8xJDIWrv3c=",
   },
-  {
-    id: "6511613afc13ae5665fd5607",
-    first_name: "Lewes",
-    last_name: "Charlwood",
-    email: "lcharlwood1@sohu.com",
-    gender: "Male",
-    isFriend: true,
-    Post: "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
-    like: 87,
-    photo:
-      "https://st.depositphotos.com/2056297/2477/i/450/depositphotos_24775699-stock-photo-fashion-photo-of-blonde-beauty.jpg",
-  },
+  
   {
     id: "6511613afc13ae5665fd5608",
     first_name: "Jacky",
@@ -44,6 +34,7 @@ export const User = [
     email: "gjikovsky3@go.com",
     gender: "Male",
     isFriend: null,
+    comment:"Hello imperdiet et, commodo vulputate, justo. In blandit ultrices enim. ",
     Post: "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.\n\nDonec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
     like: 76,
     photo:
@@ -59,6 +50,7 @@ export const User = [
     message: "Hey,WhatsUp",
     Post: "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
     like: 20,
+    comment:"Hello imperdiet et, commodo vulputate, justo. In blandit ultrices enim. ",
     photo:
       "https://media.istockphoto.com/id/1382459668/fr/photo/jolie-jeune-femme-afro-au-milieu-des-palmiers.jpg?s=612x612&w=0&k=20&c=9FyPoHHCdYNWj8CWP5QJ9Lle_BMF_DebBK5iL1Py_1s=",
   },

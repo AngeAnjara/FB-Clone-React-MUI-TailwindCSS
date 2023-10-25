@@ -11,7 +11,7 @@ function Profile() {
     <Container className="containerWhite dark:containerDark">
       <div className="flex-col m-2 rounded-md gap-5 ">
         <Box className="flex gap-5">
-          <Link to="/ProfilDetail">
+          <Link to="/">
             <IconButton className="dark:text-slate-100  gap-3">
               <AccountCircleIcon />
               <Typography>Profile Name </Typography>

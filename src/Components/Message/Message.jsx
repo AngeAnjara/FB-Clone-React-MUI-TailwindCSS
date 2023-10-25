@@ -7,13 +7,7 @@ import {User} from "../UserData/User"
 
 
 const Message = (props) => {
-  const [data,setData]= useState([])
-  const [loadign, setLoadign]= useState(false)
-  useEffect(()=>{
-    setLoadign(true)
-    setData(User)
-    setLoadign(false)
-  }, [data])
+  
   return (
     <Container>
       <Box className='flex justify-between'>
@@ -23,7 +17,7 @@ const Message = (props) => {
         <IconButton onClick={props.close}><CloseIcon/></IconButton>
       </Box>
     {
-      loadign? 'Loading...': data.map((item)=>{
+      User.map((item)=>{
         return item.message &&   <Box key={item.id} className='mesShow dark:mesShowDark flex gap-2 items-center p-4 my-2 border-y-2 rounded-md dark:border-y-0'>
         <Avatar src={item.photo}></Avatar>
         <Box >

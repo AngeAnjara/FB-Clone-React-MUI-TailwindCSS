@@ -3,10 +3,7 @@ import { useEffect, useState } from "react";
 import {User} from "../UserData/User"
 
 const Contact = () => {
-  const [data,setData]= useState([])
-  useEffect(()=>{
-    setData(User)
-  }, [])
+
 
   return (
     <Container className="containerWhite dark:containerDark m-2">
@@ -15,7 +12,7 @@ const Contact = () => {
       </Typography>
       <div className='Line'>
      {
-      data.map((item)=>{
+      User.map((item)=>{
         return item.isFriend && <button className="OnLine" key={item.id}>
        
         <span></span>
